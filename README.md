@@ -1,94 +1,87 @@
 # 📝 Lista de Tarefas - FEMA
 
-## Descrição
+## 🌟 Descrição
 
-Este projeto é uma aplicação de **Lista de Tarefas** desenvolvida como atividade da disciplina de Programação/Desenvolvimento Web na **FEMA**.  
+Este projeto é uma aplicação de **Lista de Tarefas**, desenvolvida como atividade da disciplina de **Programação/Desenvolvimento Web** na **FEMA**.  
 
 A aplicação permite que o usuário:  
-- ✅ Adicione novas tarefas  
-- ✔️ Marque tarefas como concluídas  
-- ✏️ Edite tarefas clicando duas vezes no texto  
-- ❌ Exclua tarefas  
-- 🖥️ Tenha uma interface limpa, responsiva e fácil de usar  
+- ✅ Adicionar novas tarefas  
+- ✔️ Marcar tarefas como concluídas  
+- ✏️ Editar tarefas clicando duas vezes no texto  
+- ❌ Excluir tarefas  
+- 🖥️ Ter uma interface limpa, responsiva e fácil de usar  
 
 O projeto está dividido em três partes:  
-1. **Lista de Tarefas Desktop** (JavaFX)  
-2. **API** (Spring Boot)  
-3. **Front-end Web** (Angular)
+1. **Desktop:** JavaFX  
+2. **API:** Spring Boot  
+3. **Web:** Angular
 
 ---
 
-## Tecnologias Utilizadas
+## 🛠 Tecnologias Utilizadas
 
-- **Front-end:** Angular 17, TypeScript, HTML5, CSS3  
-- **Back-end:** Java, Spring Boot  
-- **Desktop:** JavaFX  
-- **Controle de versão:** Git/GitHub  
-
----
-
-## Estrutura do Projeto
-
-📁 **lista-tarefas-desktop/**  
-&nbsp;&nbsp;🖥️ Aplicação Desktop com JavaFX
-
-📁 **listadetarefas-api/**  
-&nbsp;&nbsp;🌐 API REST com Spring Boot
-
-📁 **listadetarefas-web/**  
-&nbsp;&nbsp;💻 Aplicação Web com Angular
-
+| Camada        | Tecnologia                     |
+|---------------|--------------------------------|
+| Front-end     | Angular 17, TypeScript, HTML5, CSS3 |
+| Back-end      | Java, Spring Boot              |
+| Desktop       | JavaFX                          |
+| Controle de versão | Git/GitHub                |
 
 ---
 
-## Instalação e Execução (Web)
+## 📂 Estrutura do Projeto
 
-1. Clone este repositório:  
-```bash
+- 📁 **lista-tarefas-desktop/**  
+  🖥️ Aplicação Desktop com JavaFX
+
+- 📁 **listadetarefas-api/**  
+  🌐 API REST com Spring Boot
+
+- 📁 **listadetarefas-web/**  
+  💻 Aplicação Web com Angular
+
+
+---
+
+## 🚀 Instalação e Execução (Web)
+
+1. Clone o repositório:  
+```
 git clone git@github.com:RuanTrindade/ListaDeTarefaFema.git
-Acesse a pasta do front-end:
-
-bash
-Copiar código
+```
+Entre na pasta do front-end: 
+```
 cd listadetarefas-web
+```
 Instale as dependências:
-
-bash
-Copiar código
+```
 npm install
+```
 Execute a aplicação:
-
-bash
-Copiar código
+```
 npm start
-Abra o navegador em:
-
-arduino
-Copiar código
+```
+Abra no navegador:
+```
 http://localhost:4200
+```
 
+---
 
-##Funcionalidades
-✅ Adicionar tarefas
+## 🎯 Funcionalidades 
+- ✅ Adicionar tarefas  
+- ✏️ Editar tarefas com double-click  
+- ✔️ Marcar tarefas como concluídas  
+- ❌ Deletar tarefas  
+- 🖥️ Interface responsiva e agradável  
 
-✏️ Editar tarefas com double-click
+## 📌 Observações
+Este projeto foi desenvolvido como atividade prática para apresentação e entrega ao professor, com foco em:  
+- Organização de código  
+- Padrões de projeto  
+- Boas práticas de desenvolvimento web  
 
-✔️ Marcar tarefas como concluídas
-
-❌ Deletar tarefas
-
-🖥️ Interface responsiva e agradável
-
-Observações
-Este projeto foi desenvolvido como atividade prática para apresentação e entrega ao professor, com foco em:
-
-Organização de código
-
-Padrões de projeto
-
-Boas práticas de desenvolvimento web
-
-Autor
-Ruan Trindade
-FEMA - Curso de Análise e Desenvolvimento de Sistemas
-GitHub: RuanTrindade
+## 👤 Autor  
+Ruan da Silva Pereira  
+FEMA - Curso de Análise e Desenvolvimento de Sistemas  
+GitHub: [RuanTrindade](https://github.com/RuanTrindade/ListaDeTarefaFema.git)
