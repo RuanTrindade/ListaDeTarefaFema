@@ -175,3 +175,40 @@ h1 {
   border-color: var(--cor-primaria);
   box-shadow: 0 0 4px rgba(0, 123, 255, 0.3);
 }
+
+
+
+
+
+
+
+
+.app-footer {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #000; /* fundo preto */
+  color: #fff; /* texto branco */
+  font-size: 0.9rem;
+  position: fixed; /* fixa na parte de baixo */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.2); /* sombra leve por cima */
+  z-index: 1000;
+}
+
+.app-footer a {
+  color: #00bfff; /* azul claro para contraste */
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.app-footer a:hover {
+  color: #1e90ff; /* azul mais escuro ao passar mouse */
+  text-decoration: underline;
+}
+
+/* Para evitar que o conteúdo fique escondido atrás do footer fixo */
+body, .container {
+  padding-bottom: 3rem; /* ajuste conforme a altura do footer */
+}
